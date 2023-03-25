@@ -1,0 +1,71 @@
+/* 1 */
+h1:hover{
+  color: red;
+}
+
+/* 2 */
+[type="text"] {
+  border: 1px solid yellowgreen;
+}
+
+/* 3 */
+a:visited {
+  color: lightgrey;
+}
+
+/* 4 */
+[type="password"]:disabled {
+  background-color: coral;
+}
+
+/* 5 */
+[type="email"]:focus {
+  background-color: cyan;
+}
+
+/* 6 */
+[type="checkbox"]:checked {
+  width: 30px;
+  height: 30px;
+}
+
+.parent,
+.parent1 {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.child,
+.child1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.inner,
+.inner1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* 7 */
+.parent div.child {
+  border: 3px solid darkorchid;
+}
+
+/* 8 */
+.parent1 div {
+  border: 3px solid darkorchid;
+}
+
+/* 9 */
+.title + p {
+  color: forestgreen;
+}
+
+/* 10 */
+.title1 ~ p  {
+  color: fuchsia;
+}
